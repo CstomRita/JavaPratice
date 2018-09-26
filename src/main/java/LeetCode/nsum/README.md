@@ -80,6 +80,22 @@
 
 遍历数组时如果nums[i]重复出现过则直接跳过
 
+## 4元组
+
+跟3元组的思想一样，在三元组的基础上再嵌套一层
+
+重点在于处理重复值时，第二个元素是 j!= i+1
+
+在于每个n元组开头的下标是什么
+
+```
+ for(int i = 0; i < nums.length-3; i++) {
+            if(i!=0 && nums[i] == nums[i-1]) continue;
+            for(int j = i + 1;j < nums.length-2; j++) {
+                if(j!= i+1 && nums[j-1] == nums[j]) continue;
+```
+
+
 
 如果使用哈希表要及時clear和put
 

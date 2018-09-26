@@ -1,6 +1,8 @@
 package LeetCode.SlidingWindows;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -12,11 +14,23 @@ import java.util.Set;
  */
 public class Solution {
     // leetcode 第三题
-//    public int LengthOfLongestSubstring(String s) {
-//
-//    }
+
+    public static int lengthOfLongestSubstring(String s) {
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        int result = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (map.containsKey(c)) {
+                i = map.get(c);
+                result = Math.max(result, map.size());
+                map.clear();
+            } else {
+                map.put(c, i);
+            }
+        }
+        return Math.max(result, map.size());
+    }
     public static void main(String[] args) {
-        Set set =  new HashSet();
-        set.add(1);
+        System.out.println(lengthOfLongestSubstring("wertyeryte"));
     }
 }

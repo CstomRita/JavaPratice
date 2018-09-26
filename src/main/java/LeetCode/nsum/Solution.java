@@ -76,10 +76,41 @@ public class Solution {
         }
         return result;
     }
-
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length-3; i++) {
+            if(i!=0 && nums[i] == nums[i-1]) continue;
+            for(int j = i + 1;j < nums.length-2; j++) {
+                if(j!= i+1 && nums[j-1] == nums[j]) continue;
+                int newTarget = target - nums[i] - nums[j];
+                int start = j + 1;
+                int end = nums.length - 1;
+                while(start < end) {
+                    int sum = nums[start] + nums[end];
+                    if(sum == newTarget) {
+                        int startNum = nums[start];
+                        int endNum = nums[end];
+                        result.add(Arrays.asList(new Integer[]{nums[i],nums[j],startNum,endNum}));
+                        while(start < end && nums[++start]== startNum) {}
+                        while(start < end && nums[--end] == endNum) {}
+                    }else if(sum > newTarget) {
+                        end--;
+                    }else{
+                        start++;
+                    }
+                }
+            }
+        }
+        return result;
+    }
     public static void main(String[] args) {
         //System.out.println(twoNum1(new int[]{1,3,5,8,2,3,7,0},8).toString());
         System.out.println(twoNum1(new int[]{-1,0,1,2},1).toString());
         System.out.println(threeNum1(new int[]{-2,0,0,2,2},0));
+        System.out.println('0'-1);
+        StringBuilder stringBuilder = new StringBuilder();
+        ArrayList<String> arrayList = new ArrayList<String>();
+        String s = "";
     }
 }
