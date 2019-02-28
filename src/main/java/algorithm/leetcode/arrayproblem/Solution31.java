@@ -23,23 +23,25 @@ import java.util.HashSet;
 public class Solution31 {
 
     /**
-     * 获取下一个字典序列
+     * 31
+     * @param nums
      */
-    private HashSet<String> set = new HashSet<String>();
-    public void nextPermutation(int[] nums) {
+    public void nextPermutation1(int[] nums) {
         int length = nums.length - 1;
         int index = 0;
         int resort_index = length;
+        // 1 获取第一个左边小于右边的数字
         for(int i = length; i > 0; i--) {
             if (nums[i] > nums[i-1]) {
-                resort_index = i + 1;
                 index = i-1;
+                resort_index = i;
                 break;
             }else if (i == 1) {
-                System.out.println("最大序列");
+                changeSort(nums,0,length);
                 return;
             }
         }
+        // 2 找比第一步找到的数字大的第一个数字并交换
         for (int i = length; i >= 0; i--) {
             if(nums[i] > nums[index] || i == 0) {
                 int swap = nums[i];
@@ -48,26 +50,76 @@ public class Solution31 {
                 break;
             }
         }
-        System.out.println(resort_index);
-        for(int i = length; i > (length + resort_index)/2; i--) {
-            System.out.println(i);
-            int swap = nums[i];
-            nums[i] = nums[length+resort_index-i];
-            nums[length+resort_index-i] = swap;
-        }
-        set.add(Arrays.toString(nums));
+        // 3 重新排序
+        changeSort(nums,resort_index,length);
         System.out.println(Arrays.toString(nums));
-       // nextPermutation(nums);
     }
+
+    /**
+     * 从left开始 到 right的顺序颠倒
+     * @param nums
+     * @param left
+     * @param right
+     */
+    public void changeSort(int[] nums, int left, int right) {
+        System.out.println(left + " " + right);
+        if(right <= left || right > nums.length-1 || left < 0) return;
+        int index = (right - left + 1) / 2;
+        System.out.println(index);
+        for(int i = 0; i < index; i++) {
+            int swap = nums[left + i];
+            nums[left + i] = nums[right - i];
+            nums[right - i] = swap;
+        }
+    }
+
+    /**
+     * 获取下一个字典序列
+     */
+    private HashSet<String> set = new HashSet<String>();
+    public void nextPermutation(int[] nums) {
+        int length = nums.length - 1;
+        int index = 0;
+        int resort_index = length;
+        // 1 获取第一个左边小于右边的数字
+        for(int i = length; i > 0; i--) {
+            if (nums[i] > nums[i-1]) {
+                index = i-1;
+                resort_index = i;
+                break;
+            }else if (i == 1) {
+                // 最大序列返回的是最小数
+                System.out.println("最大序列");
+                changeSort(nums,0,length);
+                return;
+            }
+        }
+        // 2 找比第一步找到的数字大的第一个数字并交换
+        for (int i = length; i >= 0; i--) {
+            if(nums[i] > nums[index] || i == 0) {
+                int swap = nums[i];
+                nums[i] = nums[index];
+                nums[index] = swap;
+                break;
+            }
+        }
+        // 3 重新排序
+        changeSort(nums,resort_index,length);
+        // 4 循环
+        set.add(Arrays.toString(nums));
+        nextPermutation(nums);
+    }
+
+
 
     /**
      * 获取全部字典数
      */
     @Test
     public void getAllPermutation() {
-        int[] nums = new int[]{1,4,3,2};
+        int[] nums = new int[]{1,3,2};
         System.out.println("原始数字 ："+ nums);
-        nextPermutation(nums);
+        nextPermutation1(nums);
         System.out.println(set.toString());
     }
 }

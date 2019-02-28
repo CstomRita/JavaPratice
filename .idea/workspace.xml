@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9dbd514-aedf-4cf6-bdf9-006b20889233" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/arrayproblem/Solution31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/arrayproblem/Solution31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/arrayproblem/Solution31.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/arrayproblem/Solution31.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#572#580#0" expanded="true" />
@@ -82,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Algorithm/SortAlgorithm/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/SortAlgorithm/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/SortAlgorithm/AllSort.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -132,13 +131,16 @@
         <option value="$PROJECT_DIR$/src/main/java/pratice/SortPratice.java" />
         <option value="$PROJECT_DIR$/src/main/java/mutithread/booklearndemo/javaconcurrencyprograming/Capter01/Demo1.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/leetcode/arrayproblem/Solution31.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="298" />
+    <option name="y" value="160" />
+    <option name="width" value="1397" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,8 +192,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551254852381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551320956710" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -367,7 +370,7 @@
       <workItem from="1544323672176" duration="281000" />
       <workItem from="1547717293130" duration="950000" />
       <workItem from="1551059406684" duration="568000" />
-      <workItem from="1551060381680" duration="7196000" />
+      <workItem from="1551060381680" duration="9864000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1537447697448</created>
@@ -394,45 +397,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 11h 01m 44s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 10m 05s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 11h 03m 30s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 10m 33s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 11h 03m 44s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 12m 47s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 11h 05m 28s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 13m 02s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 11h 05m 43s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 13m 38s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 11h 06m 31s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 21m 21s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 15h 50m 49s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 21m 46s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 15h 51m 05s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 22m 21s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 15h 52m 56s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 22m 50s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution31_getAllPermutation - 2019.02.27 at 15h 53m 15s.xml">
+    <history-entry file="Solution31_getAllPermutation - 2019.02.28 at 10h 23m 10s.xml">
       <configuration name="Solution31.getAllPermutation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214238000" />
+    <option name="totallyTimeSpent" value="216906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="298" y="160" width="1397" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30701107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24985674" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,12 +444,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882413" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28433734" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11210191" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42039543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3180723" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.31592357" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50065273" side_tool="true" weight="0.329849" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49934727" weight="0.17073171" />
@@ -546,7 +549,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/proxy/AProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -873,10 +875,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/arrayproblem/Solution31.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#572#580#0" expanded="true" />
