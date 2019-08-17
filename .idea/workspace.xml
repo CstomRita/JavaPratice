@@ -1,182 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9dbd514-aedf-4cf6-bdf9-006b20889233" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/for360/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/for360/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/MainDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/ScannerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/wangyi/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/wangyi/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/wangyi/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/listnode/NodeOfLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/number/Sprt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/Duplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/FindContinuousSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/FindGreatestSumOfSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/FindNumbersWithSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/FindNumsAppearOnce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/GetNumberOfK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/InversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/Kmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/MaxInWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/PrintMinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/isContinuous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/collectionProblem/O1Struct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/collectionProblem/O1StructRepeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/gridProblem/MovingCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/gridProblem/StringHasPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/DeleteDuplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/EntryNodeOfLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/FindFirstCommonNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/numberProblem/GetMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/numberProblem/GetUglyNumber_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/numberProblem/LastRemaining_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/numberProblem/NumberOf1Between1AndN_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/numberProblem/SampleSolutionWithLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/FirstNoReapt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/FirstNotRepeatingChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/IsNumeric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/LeftRotateString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/ReverseSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/StrToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/GetNext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/IsBalanced_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/IsSymmetrical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/KthNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/Serialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/TreeDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/packageProblem/EntirePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/packageProblem/MultiplePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/packageProblem/zeroOrOnePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/binarytree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/listnode/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/listnode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/sort/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/stackAndQueue/demo1/MaxQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/stackAndQueue/demo1/MaxStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/stackAndQueue/demo1/QueueToStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/review/stackAndQueue/demo1/StackToQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sortalgorithm/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sortalgorithm/Combine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/stackAndQueueAlgorithm/QueueMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/stackAndQueueAlgorithm/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/FactoryMethod/IDCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/FactoryMethod/IDCardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/FactoryMethod/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/FactoryMethod/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/FactoryMethod/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/TemplateMethod/ActualPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/TemplateMethod/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/TemplateMethod/runner/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/Item1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/Item1A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/Item1B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/Item2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/Item2A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/Item2B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/ProductAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/factory/FactoryA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/abstractFactoryMethod/factory/FactoryB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/classAdapterPattern/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/classAdapterPattern/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/classAdapterPattern/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/classAdapterPattern/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/interfaceAdapterPattern/AbstractAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/interfaceAdapterPattern/Adapter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/interfaceAdapterPattern/Adapter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/interfaceAdapterPattern/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/objectAdapterPattern/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/objectAdapterPattern/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/objectAdapterPattern/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterPattern/objectAdapterPattern/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/bridgeMethod/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/bridgeMethod/functionLevel/NewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/bridgeMethod/functionLevel/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/bridgeMethod/implementationLevel/ProductAImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/bridgeMethod/implementationLevel/ProductImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builderMethod/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builderMethod/BuilderA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builderMethod/BuilderB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builderMethod/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builderMethod/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builderMethod/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/Iterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/iteratorPattern/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototype/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototype/Product1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototype/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototype/Thing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singleton/TicketMarker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategyPattern/AbstractStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategyPattern/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategyPattern/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategyPattern/StrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategyPattern/StrategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8Change/InterfaceChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8Change/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memoryleak/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/memoryleak/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mutithread/booklearndemo/theArtOfConcurrentProgramming/Capter5/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nio/TestBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nio/TestChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/TimeStapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/constructor/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/constructor/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/constructor/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/binarytree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/niuke/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/examination/tecent/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/listnode/Reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/MoreThanHalfNum_Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/arrayProblem/MoreThanHalfNum_Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/PrintListFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/PrintListFromTailToHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/RandomListNodeClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/listNodeProblem/RandomListNodeClone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/stringProblem/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/Convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/offerAlgorithm/treeProblem/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/stackalgorithm/StackMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/stackAndQueueAlgorithm/StackMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/AProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/AProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/AProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proxy/AProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/binarytree/Traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/binarytree/Traversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/binarytree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/binarytree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/listnode/Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/stackalgorithm/StackMin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/stackalgorithm/StackMin1.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e9dbd514-aedf-4cf6-bdf9-006b20889233" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -247,26 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="522">
-                <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-                <folding>
-                  <element signature="e#0#625#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="48">
+                <caret line="72" column="21" lean-forward="true" selection-end-line="124" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="516">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -309,27 +131,6 @@
                 <element signature="e#38314#38315#0" expanded="true" />
                 <element signature="e#38353#38354#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/examination/wangyi/Main3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1633">
-              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/sortalgorithm/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="62" column="5" selection-start-line="39" selection-start-column="3" selection-end-line="62" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -439,8 +240,8 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/sortalgorithm/Combine.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank1.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/README.md" />
       </list>
     </option>
   </component>
@@ -473,8 +274,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="351" />
+    <option name="x" value="102" />
+    <option name="y" value="76" />
     <option name="width" value="1400" />
     <option name="height" value="877" />
   </component>
@@ -510,39 +311,6 @@
               <item name="JavaPratice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="combineAndArrange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sortalgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -571,7 +339,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566043210390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566043277758" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -774,7 +542,7 @@
       <workItem from="1564814923715" duration="13937000" />
       <workItem from="1565865255642" duration="5374000" />
       <workItem from="1565874193266" duration="77000" />
-      <workItem from="1565921052248" duration="8734000" />
+      <workItem from="1565921052248" duration="9089000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1537447697448</created>
@@ -801,9 +569,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChannel_test2 - 2019.07.05 at 09h 33m 40s.xml">
-      <configuration name="TestChannel.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestChannel_test2 - 2019.07.05 at 09h 34m 07s.xml">
       <configuration name="TestChannel.test2" configurationId="JUnit" />
     </history-entry>
@@ -831,15 +596,17 @@
     <history-entry file="Rank2_test - 2019.08.17 at 19h 46m 43s.xml">
       <configuration name="Rank2.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Rank3_test - 2019.08.17 at 19h 58m 03s.xml">
+      <configuration name="Rank3.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645389000" />
+    <option name="totallyTimeSpent" value="645744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="102" y="76" width="1400" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2028754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28055966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24985674" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -848,7 +615,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882413" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892318" visible="true" weight="0.25742576" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892318" weight="0.32218093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52409637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -858,7 +625,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49934727" weight="0.17579618" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32955974" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2060241" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.5745223" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1139,16 +906,6 @@
     <entry file="file://$PROJECT_DIR$/target/classes/2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
@@ -1338,19 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-            <folding>
-              <element signature="e#0#625#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1363,13 +1107,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/Rank3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="516">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/combineAndArrange/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="72" column="21" lean-forward="true" selection-end-line="124" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="mavenExecuteGoalHistory">
