@@ -19,6 +19,16 @@ class ListNode {
     ListNode(int val) {
         this.val = val;
     }
+    ListNode(int[] array) {
+        ListNode node = this;
+        node.val = array[0];
+        for (int i = 1; i < array.length; i++) {
+            node.next = new ListNode(array[i]);
+            node = node.next;
+        }
+    }
+
+
 
     public static ListNode init() {
         ListNode node = new ListNode(1);

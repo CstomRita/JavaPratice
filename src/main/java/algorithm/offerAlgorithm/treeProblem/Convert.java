@@ -11,7 +11,22 @@ package algorithm.offerAlgorithm.treeProblem;
  */
 public class Convert {
 
-    public TreeNode Convert(TreeNode pRootOfTree) {
+    TreeNode list = null;
+
+    /**
+     * 1 二叉树的中序遍历就是递增的序列
+     * 2 如果想把二叉树变成一个链表，需要构建成只有左子树或者右子树的二叉树，这样才能是一个链表
+     * 3 要求不能创建其他新的节点,需要找到最小的那个递归出口，作为首节点
+     * @param node
+     * @return
+     */
+    public TreeNode Convert(TreeNode node) {
+        if (node == null) return null;
+        list = Convert(node.left);
+        list.right = node;
+        list = list.right;
         return null;
     }
+
+
 }

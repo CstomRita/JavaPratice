@@ -11,13 +11,18 @@ import java.util.Queue;
  * @Version: $
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode(int x) {
         this.val = x;
     }
 
+    public TreeNode(int x,TreeNode left,TreeNode right) {
+        this.val = x;
+        this.right = right;
+        this.left = left;
+    }
     /**
      * 二叉树的层次遍历只需使用一个队列即可，但若需要按层来换行打印则稍麻烦一些。
      *
@@ -52,6 +57,18 @@ public class TreeNode {
             }
         }
 
+    }
+    public static TreeNode init() {//注意必须逆序建立，先建立子节点，再逆序往上建立，因为非叶子结点会使用到下面的节点，而初始化是按顺序初始化的，不逆序建立会报错
+        TreeNode J = new TreeNode(8, null, null);
+        TreeNode H = new TreeNode(16, null, null);
+        TreeNode G = new TreeNode(8, null, null);
+        TreeNode F = new TreeNode(6, null, null);
+        TreeNode E = new TreeNode(4, null, null);
+        TreeNode D = new TreeNode(2, null, null);
+        TreeNode C = new TreeNode(7, F, G);
+        TreeNode B = new TreeNode(3, D, E);
+        TreeNode A = new TreeNode(5, B, C);
+        return A;   //返回根节点
     }
 
 }

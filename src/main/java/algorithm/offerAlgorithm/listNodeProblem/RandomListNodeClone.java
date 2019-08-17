@@ -24,11 +24,11 @@ class RandomListNode {
 }
 public class RandomListNodeClone{
     /**
-     * 实现深拷贝
+     * 实现深拷贝的复制一个链表
      * @param pHead
      * @return
      */
-    public RandomListNode Clone(RandomListNode pHead) {
+    public RandomListNode oldClone(RandomListNode pHead) {
         if (pHead == null) return null;
         RandomListNode node = new RandomListNode(0);
         RandomListNode nodeA = node;
@@ -56,6 +56,44 @@ public class RandomListNodeClone{
             nodeB = nodeB.next;
         }
         return node.next;
+    }
+
+    /**
+     *
+     【链表复制思路】
+     1. 遍历一次链表，创建出所有的节点，但是区别在于创建的新节点位于旧节点之后，作为旧节点的Next，在旧链表的后面创建新的链表节点,新节点的 = 旧节点.next
+     2. 再遍历一次链表，寻找random节点，但是由于新旧节点在一个链表中，有新节点.random = 旧节点.random.next的关系，这样可以利用节点不需要再次遍历，时间复杂度O(n)
+     3. 把新旧链表从一个链表中拆分出来
+     */
+    public RandomListNode Clone(RandomListNode pHead) {
+        if (pHead == null) return null;
+        // 1 在旧节点后面创建原有节点
+        RandomListNode node  = pHead;
+        while (node != null) {
+            RandomListNode next = node.next;
+            node.next = new RandomListNode(node.label);
+            node.next.next = next;
+            node = next;
+        }
+
+        // 2 再次遍历，新节点.random = 旧节点.random.next
+        node = pHead;
+        while (node != null) {
+
+            node.next.random = node.random == null ? null : node.random.next; //random可能为空，需要判断
+            node = node.next.next;
+        }
+
+        // 3 再遍历拆分
+        RandomListNode copyHead = pHead.next;
+        node = pHead;
+        RandomListNode temp;
+        while (node != null) {
+            temp = node.next;
+            node.next = temp == null ? null : temp.next;
+            node = temp;
+        }
+        return copyHead;
     }
 
     @Test

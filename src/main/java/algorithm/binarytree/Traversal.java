@@ -61,6 +61,21 @@ public class Traversal {
     }
 
     /**
+     * 求深度，基本算法，记住
+     *
+     * @param root
+     * @return
+     */
+    public int TreeDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = TreeDepth(root.left);
+        int right = TreeDepth(root.right);
+        return Math.max(left, right) + 1;
+    }
+
+    /**
      * 面试题目1
      * 二叉树前序遍历 生成一个链表
      * 这个链表依然使用二叉树的数据格式 ，只是左子树全部为 null而已
@@ -202,4 +217,6 @@ public class Traversal {
         getSum(target-(Integer) node.element,currentPath,node.right,allPath);
         currentPath.remove(currentPath.size() - 1);
     }
+
+
 }

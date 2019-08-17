@@ -7,6 +7,8 @@ package algorithm.examination.niuke;
  * @ Modified By：
  * @Version: $
  */
+import org.junit.Test;
+
 import java.util.Scanner;
 
 public class Main2 {
@@ -38,5 +40,18 @@ public class Main2 {
         int step = Math.max(maxXY - a,maxXY - b);
         System.out.println(step);
         return getNum(maxXY,maxXY,k - step);
+    }
+
+    @Test
+    public void test(){
+        test1(173);
+    }
+    public void test1(int n) {
+        if (n <= 1) {
+            System.out.print(n);
+        }else{
+            test1(n/2);
+            System.out.print(n%2);
+        }
     }
 }

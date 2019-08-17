@@ -12,9 +12,9 @@ import java.util.Queue;
  */
 public class TreeNode {
 
-     TreeNode left;
-     TreeNode right;
-     Object element;
+     public TreeNode left;
+    public TreeNode right;
+     public Object element;
 
     public TreeNode(Object element,TreeNode left, TreeNode right) {
         this.element = element;
@@ -24,13 +24,13 @@ public class TreeNode {
     public static TreeNode init() {//注意必须逆序建立，先建立子节点，再逆序往上建立，因为非叶子结点会使用到下面的节点，而初始化是按顺序初始化的，不逆序建立会报错
         TreeNode J = new TreeNode(8, null, null);
         TreeNode H = new TreeNode(16, null, null);
-        TreeNode G = new TreeNode(2, null, null);
-        TreeNode F = new TreeNode(7, null, J);
-        TreeNode E = new TreeNode(5, H, null);
-        TreeNode D = new TreeNode(1, null, G);
-        TreeNode C = new TreeNode(9, F, null);
-        TreeNode B = new TreeNode(3, D, E);
-        TreeNode A = new TreeNode(6, B, C);
+        TreeNode G = new TreeNode(4, null, null);
+        TreeNode F = new TreeNode(5, null, null);
+        TreeNode E = new TreeNode(7, null, null);
+        TreeNode D = new TreeNode(3, null, G);
+        TreeNode C = new TreeNode(2, F, D);
+        TreeNode B = new TreeNode(6, E, null);
+        TreeNode A = new TreeNode(1, B, C);
         return A;   //返回根节点
     }
 
